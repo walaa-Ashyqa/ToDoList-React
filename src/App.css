@@ -1,0 +1,78 @@
+body{
+  background-color: rgb(255, 250, 245);
+   background-color: rgb(255, 247, 237); 
+}
+.App{
+  margin: 100px 30%;
+  border: 1px solid #fe8f62;
+  padding: 50px;
+  text-align: center;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 25px;
+}
+.App h2{
+  color: #fe8f62;
+
+}
+.App ul{
+ list-style: "🔥";
+ cursor: pointer;
+ font-size: 22px;
+ color: #fe8f62;
+ margin: 20px;
+ text-align: center;
+}
+.App input{
+  border: 1px solid #fe8f62;
+  padding: 10px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  margin: 10px;
+  display: inline-block;
+  margin: auto;
+  width:  370px;
+}
+.App button{
+  display: block;
+  margin: auto;
+  padding: 10px;
+  background-color: #fe8f62;
+  color: #fff;
+  border: 1px solid #fe8f62;
+  border-radius: 20px;
+  width:  200px;
+  margin-top: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.App ul li {
+    overflow-wrap: break-word;
+    margin: 5px;
+}
+
+
+.Complete{
+  list-style: "✅";
+  text-decoration-line:line-through;
+  -moz-text-decoration-line:line-through;
+  background-color: #fbe8e1;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.task-item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
